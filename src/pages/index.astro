@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Three from '../components/Three.jsx'
+---
+
+<Layout title='METALCOM'>
+	<main class='h-screen flex justify-center bg-slate-500'>
+		<Three
+			client:load
+			title='METALCOM'
+		/>
+	</main>
+</Layout>
